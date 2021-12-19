@@ -1,8 +1,8 @@
 name: ribbon_safe
 description: A Ribbon decoration on a widget.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/imijanur/ribbon-safe.git
-author: MyDigiShell<ismijanur@gmail.com>
+#author: MyDigiShell<ismijanur@gmail.com>
 #authors:
 #  - mydigishell.com
 
