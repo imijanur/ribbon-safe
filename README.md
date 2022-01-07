@@ -12,36 +12,39 @@ Installing:
 In your pubspec.yaml
 
 dependencies:
-
-ribbon_safe: ^0.0.1
-
+```
+ribbon_safe: 
+  git:
+      url: https://github.com/imijanur/ribbon-safe.git
+```
 Example Usage:
-
+```
 import 'package:ribbon_safe/ribbon_safe.dart';
 
 Ribbon(
 
-nearLength: nearLength,
+  nearLength: nearLength,
 
-farLength: farLength,
+  farLength: farLength,
 
-title: 'New!',
+  title: 'New!',
 
-titleStyle: TextStyle(
+  titleStyle: TextStyle(
 
-color: Colors.greenAccent,
+    color: Colors.greenAccent,
 
-fontSize: 18,
+    fontSize: 18,
 
-fontWeight: FontWeight.bold),
+    fontWeight: FontWeight.bold,
+    ),
 
-color: Colors.redAccent,
+   color: Colors.redAccent,
 
-location: location,
+   location: location,
 
 child: )
 
-
+```
 
 <!-- 
 This README describes the package. If you publish this package to pub.dev,
