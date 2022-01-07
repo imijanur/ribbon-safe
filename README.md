@@ -20,6 +20,7 @@ ribbon_safe:
 Example Usage:
 ```
 import 'package:ribbon_safe/ribbon_safe.dart';
+RibbonLocation location = RibbonLocation.topEnd;
 
 Ribbon(
 
@@ -36,13 +37,14 @@ Ribbon(
     fontSize: 18,
 
     fontWeight: FontWeight.bold,
-    ),
+   ),
 
    color: Colors.redAccent,
 
    location: location,
 
-child: )
+child: Container(),
+)
 
 ```
 
